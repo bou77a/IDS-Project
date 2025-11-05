@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data and results (large files)
+data/
+results/
+models/
+
+# Environment and system files
+.env
+*.log
+*.csv
+.DS_Store
+Thumbs.db
