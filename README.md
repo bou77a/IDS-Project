@@ -8,8 +8,9 @@ It includes all stages from data preprocessing to model training and evaluation,
 
 ---
 
-## 📁 Project Structure
 
+## 📁 Project Structure
+```plaintext
 IDS-Project/
 │
 ├── data/                  # Datasets (CSV, reduced versions, etc.)
@@ -17,37 +18,29 @@ IDS-Project/
 │   ├── UNSW-NB15_2.csv
 │   ├── UNSW-NB15_3.csv
 │   ├── UNSW-NB15_4.csv
-│   ├── UNSW-NB15_features.csv
-│   └── README.md          # (optional: describe your datasets)
+│   └── UNSW-NB15_features.csv
 │
-├── notebooks/             # Jupyter notebooks (exploration, tests)
+├── notebooks/             # Jupyter notebooks (exploration, training, evaluation)
 │   ├── 01_exploration.ipynb
 │   ├── 02_training.ipynb
 │   └── 03_evaluation.ipynb
 │
-├── src/                   # Source code (Python scripts)
-│   ├── __init__.py
-│   ├── preprocess.py      # Data loading, cleaning, scaling
-│   ├── train.py           # Training ANN
-│   ├── evaluate.py        # Evaluate model (accuracy, F1, ROC, etc.)
-│   ├── predict.py         # Single-sample prediction helper
-│   └── realtime_demo.py   # Later: real-time packet capture + detection
+├── src/                   # Source code (preprocessing, training, evaluation)
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── evaluate.py
+│   ├── predict.py
+│   └── realtime_demo.py
 │
-├── models/                # Saved ML models + scalers
+├── models/                # Saved ML models and scalers
 │   ├── model.h5
-│   ├── scaler.pkl
-│   └── README.md
+│   └── scaler.pkl
 │
-├── results/               # Logs, plots, confusion matrices, reports
-│   ├── training_log.txt
+├── results/               # Reports, logs, and visualizations
 │   ├── confusion_matrix.png
 │   └── roc_curve.png
 │
-├── requirements.txt       # Python dependencies
-├── README.md              # Project description
-└── .gitignore
-
-
+└── requirements.txt       # Python dependencies
 ---
 
 ## ⚙️ Features
