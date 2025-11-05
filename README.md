@@ -13,35 +13,38 @@ It includes all stages from data preprocessing to model training and evaluation,
 ```plaintext
 IDS-Project/
 │
-├── data/                  # Datasets (CSV, reduced versions, etc.)
+├── data/           # Datasets (CSV, reduced versions, etc.)
 │   ├── UNSW-NB15_1.csv
 │   ├── UNSW-NB15_2.csv
 │   ├── UNSW-NB15_3.csv
 │   ├── UNSW-NB15_4.csv
 │   └── UNSW-NB15_features.csv
 │
-├── notebooks/             # Jupyter notebooks (exploration, training, evaluation)
+├── notebooks/      # Jupyter notebooks (exploration, training, evaluation)
 │   ├── 01_exploration.ipynb
 │   ├── 02_training.ipynb
 │   └── 03_evaluation.ipynb
 │
-├── src/                   # Source code (preprocessing, training, evaluation)
+├── src/            # Source code (preprocessing, training, evaluation)
 │   ├── preprocess.py
 │   ├── train.py
 │   ├── evaluate.py
 │   ├── predict.py
 │   └── realtime_demo.py
 │
-├── models/                # Saved ML models and scalers
+├── models/         # Saved ML models and scalers
 │   ├── model.h5
 │   └── scaler.pkl
 │
-├── results/               # Reports, logs, and visualizations
+├── results/        # Reports, logs, and visualizations
 │   ├── confusion_matrix.png
 │   └── roc_curve.png
 │
-└── requirements.txt       # Python dependencies
-```plaintext
+└── requirements.txt  # Python dependencies
+
+```
+
+---
 
 ## ⚙️ Features
 - Data loading, cleaning, and feature preprocessing  
@@ -61,13 +64,18 @@ You can download it manually from the official UNSW Canberra website:
 After downloading, place the CSV files inside the `data/` folder.
 
 Example structure:
-IDS-Project/
-└── data/
-├── UNSW-NB15_1.csv
-├── UNSW-NB15_2.csv
-├── UNSW-NB15_3.csv
-├── UNSW-NB15_4.csv
 
+```plaintext
+IDS-Project/
+│
+├── data/
+│   ├── UNSW-NB15_1.csv
+│   ├── UNSW-NB15_2.csv
+│   ├── UNSW-NB15_3.csv
+│   ├── UNSW-NB15_4.csv
+│   └── UNSW-NB15_features.csv
+
+```
 
 ---
 
