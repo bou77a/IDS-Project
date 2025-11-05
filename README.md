@@ -41,7 +41,7 @@ IDS-Project/
 │   └── roc_curve.png
 │
 └── requirements.txt       # Python dependencies
-``
+```plaintext
 
 ## ⚙️ Features
 - Data loading, cleaning, and feature preprocessing  
